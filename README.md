@@ -1,13 +1,13 @@
 ## The Description  
 A small app that allows a player to modify their Zelda TOTK gamesaves directly in their 
-emulator's game directory. When the TOTK game auto-saves or manual-saves, a player 
+emulator's gamesave directory. When the TOTK game auto-saves or manual-saves, a player 
 can refresh this app, click its options, and then reload their game from the TOTK pause 
 menu. The process is designed to be quick and simple.
 
 When the game reloads from the modified gamesave data, the player can have full durability 
 of their swords, bows, and shields. This app can also refill hearts, arrows, rupees, and 
 material quantities. This app is meant to maintain the fun of finding new types of items, 
-so it does not give the player new items but simply restores or refills the player's current items.
+so it does not give the player new items, but simply restores or refills the player's current items.
 
 ## The Lore
 I was thinking, instead of using duplication glitches, it would be nice if my character 
@@ -34,8 +34,7 @@ weapon duplication glitches to prolong the durability of weapons, but weapon dup
 glitches need you to leave some weapons untouched which is tedious, and performing any glitch 
 is a bit tedious anyway. This app replaces the duplication glitches that I had been using.
 
-## Direct Download
-Work in progress
+## [Download](https://github.com/principia16870705/gamesave-modifier-for-totk-to-restore-refill-items/releases/tag/v1.0.0)
 
 ## Try App With Test Data  
 You can test this app's ability to work on a TOTK gamesave directory structure by downloading 
