@@ -34,25 +34,54 @@ weapon duplication glitches to prolong the durability of weapons, but weapon dup
 glitches need you to leave some weapons untouched which is tedious, and performing any glitch 
 is a bit tedious anyway. This app replaces the duplication glitches that I had been using.
 
-## [Download](https://github.com/principia16870705/gamesave-modifier-for-totk-to-restore-refill-items/releases/tag/v1.0.0)
+## Download this App as an Executable File  
+You can download this app built as an exe for Windows or a bin for Linux.  
+[Download](https://github.com/principia16870705/gamesave-modifier-for-totk-to-restore-refill-items/releases/tag/v1.0.0)
 
-## Try App With Test Data  
-You can test this app's ability to work on a TOTK gamesave directory structure by downloading 
-and unzipping for_testing_only_parent_directory.zip from this repo. You can test this app's 
-ability to work on a single TOTK gamesave file by downloading for_testing_only_progress.sav 
-from this repo.
+## Test the App with Test Data  
+You can use this app directly on your TOTK gamesaves, but you can also make use of the test 
+data in this repo. Test this app's ability to work on the TOTK gamesave directory structure by 
+downloading and unzipping for_testing_only_parent_directory.zip. Test this app's ability 
+to work on a single TOTK gamesave file by downloading for_testing_only_progress.sav.
 
-## Build Instructions
-This project uses Python, Pillow, and pyinstaller.
+## Running and Building on Windows  
 
 ### Dependencies  
+This project uses Python, Pillow, pyinstaller, and tkinter.  
+(in our case, tkinter was included with Python automatically)  
+For Windows, we used these versions.
+
 Python 3.11.4  
 Pillow 10.0.0  
 pyinstaller 5.12.0  
 
-If you clone or download this repo, and you have the dependencies installed, you can open a 
-command prompt in the project directory and build the project to a single app file with 
-this command.
+### Run Command  
+If your dependencies are in place, and you cloned or downloaded this repo, you can run the 
+app directly with python.  
+`python main.py`
 
 ### Build Command  
+If your dependencies are in place, and you cloned or downloaded this repo, you can build 
+the project to a single executable file.  
 `pyinstaller --onefile --windowed --add-data images/*;images main.py`
+
+## Running and Building on Linux  
+
+### Dependencies  
+This project uses Python, Pillow, pyinstaller, and tkinter.  
+For Linux, we used these versions.
+
+Python 3.9.2  
+Pillow 10.0.0  
+pyinstaller 5.13.0  
+tkinter 3.9.2-1  
+
+### Run Command  
+If your dependencies are in place, and you cloned or downloaded this repo, you can run the 
+app directly with python.  
+`python3 main.py`
+
+### Build Command  
+If your dependencies are in place, and you cloned or downloaded this repo, you can build 
+the project to a single executable file.  
+`pyinstaller --onefile --windowed --add-data images/*:images --hidden-import PIL._tkinter_finder main.py`
