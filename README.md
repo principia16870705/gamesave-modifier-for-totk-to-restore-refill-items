@@ -38,11 +38,12 @@ is a bit tedious anyway. This app replaces the duplication glitches that I had b
 You can download this app built as an exe for Windows or a bin for Linux.  
 [Download](https://github.com/principia16870705/gamesave-modifier-for-totk-to-restore-refill-items/releases/tag/v1.0.0)
 
-## Test the App with Test Data  
-You can use this app directly on your TOTK gamesaves, but you can also make use of the test 
-data in this repo. Test this app's ability to work on the TOTK gamesave directory structure by 
-downloading and unzipping for_testing_only_parent_directory.zip. Test this app's ability 
-to work on a single TOTK gamesave file by downloading for_testing_only_progress.sav.
+## Trying the App with Test Data  
+You can use this app directly on your TOTK gamesaves, but you can also use the test data on the 
+download/releases page. To try out this app's look and feel while reading gamesaves from an 
+emulator's directories, download and unzip "for_testing_only_parent_directory.zip." To try out 
+this app's look and feel while reading gamesave data from an individual file, download 
+"for_testing_only_progress.sav."
 
 ## Running and Building on Windows  
 
